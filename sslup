@@ -1,0 +1,42 @@
+#!/bin/bash 
+
+#####################################
+#  Riadh Hamdi <rhamdi@redhat.com>  #
+#                                   #
+#                                   #
+#####################################
+
+
+if [ $# -eq 0 ]
+then
+echo "***Invalid Number of arguments***"
+echo "   Usage:      --establish-root
+                    --sign-csr        " 
+fi
+
+if [ $1 == "--establish-root" ]
+
+then
+
+echo "Establishing new RootCA and KeyFile...."
+echo 
+echo 
+sleep 1
+echo "Please answer the following questions"
+echo 
+echo
+echo "Choose the working directory of the rootCA and the keyfile"
+read WORKING_DIR
+#Creating the working directory if doesnt exist 
+test -d $WORKING_DIR || mkdir -p $WORKING_DIR && echo "working directory created"
+echo
+echo 
+echo "Creating the Key..."
+sleep 1
+echo 
+openssl genrsa -des3 -out $WORKING_DIR/rootCA.key 4096
+echo 
+openssl req -x509 -new -nodes -key $WORKING_DIR/rootCA.key -sha256 -days 1024 -out $WORKING_DIR/rootCA.crt
+echo 
+exit 0
+fi
