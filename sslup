@@ -5,14 +5,28 @@
 #                                   #
 #                                   #
 #####################################
+#Defining constants 
 
+RED='\033[0;31m'
+NC='\033[0m' # No Color
+CY='\033[0;34m'
+GR='\033[1;32m'
+#Black        0;30     Dark Gray     1;30
+#Red          0;31     Light Red     1;31
+#Green        0;32     Light Green   1;32
+#Brown/Orange 0;33     Yellow        1;33
+#Blue         0;34     Light Blue    1;34
+#Purple       0;35     Light Purple  1;35
+#Cyan         0;36     Light Cyan    1;36
+#Light Gray   0;37     White         1;37
 
 if [ $# -eq 0 ]
 then
-echo "***Invalid Number of arguments***"
-echo "   Usage:      --establish-root
-                     --generate-csr
-                    --sign-csr        " 
+printf "${RED} ***Invalid Number of arguments*** ${NC}"
+echo 
+echo "   Usage:         --establish-root
+                  --generate-csr
+                  --sign-csr" 
 exit 0
 fi
 
@@ -20,11 +34,11 @@ if [ $1 == "--establish-root" ]
 
 then
 
-echo "Establishing new RootCA and KeyFile...."
+printf "${GR}Establishing new RootCA and KeyFile....${NC}"
 echo 
 echo 
 sleep 1
-echo "Please answer the following questions"
+printf "${CY}Please answer the following questions${NC}"
 echo 
 echo
 echo "Choose the working directory of the rootCA and the keyfile"
@@ -33,13 +47,17 @@ read WORKING_DIR
 test -d $WORKING_DIR || mkdir -p $WORKING_DIR && echo "working directory created"
 echo
 echo 
-echo "Creating the Key..."
+printf "${GR}Creating the Key...${NC}"
 sleep 1
 echo 
 openssl genrsa -des3 -out $WORKING_DIR/rootCA.key 4096
 echo 
 openssl req -x509 -new -nodes -key $WORKING_DIR/rootCA.key -sha256 -days 1024 -out $WORKING_DIR/rootCA.crt
 echo 
+printf "${GR} RootCA and KeyFile generated successfully ${NC}"
+echo
+echo "ROOTCA : $WORKING_DIR/rootCA.crt" 
+echo "KEY    : $WORKING_DIR/rootCA.key"
 exit 0
 fi
 if [ $1 == "--generate-csr" ]
@@ -47,9 +65,10 @@ then
 CSRNAME=$(hostname -s)
 echo $CSRNAME
 
-echo "Choose your working directory... All the files will be stored there"
+printf "${CY}Choose your working directory... All the files will be stored there${NC}"
+echo
 read WORKING_DIR
-echo "You will be promted to reinter the passphrase twice"
+echo "You will be asked to reinter the passphrase twice"
 echo
 test -d $WORKING_DIR || mkdir -p $WORKING_DIR && echo "working directory created"
 openssl genrsa -des3 -out $WORKING_DIR/$CSRNAME.pem 1024
@@ -59,28 +78,28 @@ echo
 openssl req -new -key $WORKING_DIR/$CSRNAME.key -out $WORKING_DIR/$CSRNAME.csr 
 
 echo 
-echo "You generated Key is stored in: $WORKING_DIR/$CSRNAME.key"
+printf "${GR} You generated Key is stored in: $WORKING_DIR/$CSRNAME.key ${NC}"
 echo 
-echo "You generated CSR is stored in: $WORKING_DIR/$CSRNAME.csr"
+printf " ${GR} You generated CSR is stored in: $WORKING_DIR/$CSRNAME.csr ${NC}"
 exit 0
 fi 
 
 if [ $1 == "--sign-csr" ]
 then
-echo "Provide the Full path to your ROOTCA certfile"
+printf "${CY} Provide the Full path to your ROOTCA certfile ${NC} "
 echo 
 read CAPATH
-echo "Provide the Full path to your ROOTCA keyfile"
+printf "${CY} Provide the Full path to your ROOTCA keyfile ${NC}"
 echo
 read CAKEYPATH
 echo 
-echo "Provide the Full path to your CSR certfile"
+printf " ${CY} Provide the Full path to your CSR certfile ${NC} "
 echo
 read CSRPATH
 echo 
 echo Signing CSR
 openssl x509 -req -days 360 -in $CSRPATH -CA $CAPATH -CAkey $CAKEYPATH -CAcreateserial -out /tmp/generated.crt -sha256
-echo "your signed certificate is stored in /tmp/generated.crt"
+printf "${GR} your signed certificate is stored in /tmp/generated.crt ${NC}"
 echo 
 exit 0
 fi 
