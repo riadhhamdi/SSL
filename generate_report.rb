@@ -82,8 +82,10 @@ puts '--------------------------------------'
    puts "ARCHITECTURE: #{item['architecture_name']  || 'Unknown' }"
    puts "OS:  #{item['operatingsystem_name']  || 'Unknown' }"
    puts "ENVIRONMENT: #{item['content_facet_attributes']['lifecycle_environment_name'] || 'Unkown'}"
+   puts "KATELLO_INSTALLED: #{item['content_facet_attributes']['katello_agent_installed'] || 'false'}"
    puts "SEC ERRATA TO APPLY:  #{item['content_facet_attributes']['errata_counts']['security'] || 'nil'}"
    puts "BUG ERRATA TO APPLY:  #{item['content_facet_attributes']['errata_counts']['bugfix'] || 'nil'}"
+
   rescue
    puts "Unable to retrieve information please check the Satellite Interface"
   end 

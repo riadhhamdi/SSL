@@ -1,0 +1,976 @@
+--------------------------------------
+Host Details for agz-srv-slpasftp
+--------------------------------------
+IP ADDRESS: 192.168.6.41
+ARCHITECTURE: x86_64
+OS:  RedHat 7.5
+ENVIRONMENT: Prod
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  0
+--------------------------------------
+Host Details for agz-srv-slpbhfmc
+--------------------------------------
+IP ADDRESS: 10.144.128.12
+ARCHITECTURE: x86_64
+OS:  RedHat 7.3
+ENVIRONMENT: Prod
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  0
+--------------------------------------
+Host Details for crmcondi.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 172.21.9.45
+ARCHITECTURE: x86_64
+OS:  RedHat 6.2
+ENVIRONMENT: Prod
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  0
+--------------------------------------
+Host Details for freeipa-test.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 192.168.205.143
+ARCHITECTURE: x86_64
+OS:  RHEL Server 7.6
+ENVIRONMENT: Library
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  0
+--------------------------------------
+Host Details for gina-borowski.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 192.168.205.67
+ARCHITECTURE: x86_64
+OS:  RHEL Server 7.6
+ENVIRONMENT: Pilote
+SEC ERRATA TO APPLY:  14
+BUG ERRATA TO APPLY:  37
+--------------------------------------
+Host Details for redhat7-test.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 192.168.199.158
+ARCHITECTURE: x86_64
+OS:  RedHat 7.4
+Unable to retrieve information please check the Satellite Interface
+--------------------------------------
+Host Details for rh-test.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 192.168.205.23
+ARCHITECTURE: x86_64
+OS:  RHEL Server 7.6
+ENVIRONMENT: Pilote
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  0
+--------------------------------------
+Host Details for slpacp25.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 172.21.9.96
+ARCHITECTURE: x86_64
+OS:  RedHat 6.7
+ENVIRONMENT: Prod
+SEC ERRATA TO APPLY:  43
+BUG ERRATA TO APPLY:  56
+--------------------------------------
+Host Details for slpacsi1.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 172.21.9.103
+ARCHITECTURE: x86_64
+OS:  RedHat 6.4
+ENVIRONMENT: Prod
+SEC ERRATA TO APPLY:  330
+BUG ERRATA TO APPLY:  893
+--------------------------------------
+Host Details for slpacsi2.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 172.21.9.107
+ARCHITECTURE: x86_64
+OS:  RHEL Server 7.6
+ENVIRONMENT: Prod
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  0
+--------------------------------------
+Host Details for slpadawx.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 192.168.205.79
+ARCHITECTURE: x86_64
+OS:  RHEL Server 7.6
+ENVIRONMENT: Library
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  0
+--------------------------------------
+Host Details for slpaefin.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 172.21.12.116
+ARCHITECTURE: x86_64
+OS:  RedHat 6.8
+ENVIRONMENT: Prod
+SEC ERRATA TO APPLY:  7
+BUG ERRATA TO APPLY:  7
+--------------------------------------
+Host Details for slpaetl1.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 172.21.9.92
+ARCHITECTURE: x86_64
+OS:  RedHat 6.8
+ENVIRONMENT: Prod
+SEC ERRATA TO APPLY:  15
+BUG ERRATA TO APPLY:  12
+--------------------------------------
+Host Details for slpaisc1.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 172.21.9.74
+ARCHITECTURE: x86_64
+OS:  RedHat 6.9
+ENVIRONMENT: Prod
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  86
+--------------------------------------
+Host Details for slpaisc2.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 172.21.9.75
+ARCHITECTURE: x86_64
+OS:  RedHat 6.4
+ENVIRONMENT: Prod
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  626
+--------------------------------------
+Host Details for slpaisc3.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 172.21.9.76
+ARCHITECTURE: x86_64
+OS:  RedHat 6.8
+ENVIRONMENT: Prod
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  178
+--------------------------------------
+Host Details for slpaitop.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 192.168.199.153
+ARCHITECTURE: x86_64
+OS:  RedHat 6.9
+ENVIRONMENT: Pilote
+SEC ERRATA TO APPLY:  59
+BUG ERRATA TO APPLY:  97
+--------------------------------------
+Host Details for slpajbw1.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 172.21.9.162
+ARCHITECTURE: x86_64
+OS:  RedHat 7.5
+ENVIRONMENT: Prod
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  81
+--------------------------------------
+Host Details for slpaman1.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 172.21.9.89
+ARCHITECTURE: x86_64
+OS:  RedHat 6.3
+ENVIRONMENT: Prod
+SEC ERRATA TO APPLY:  398
+BUG ERRATA TO APPLY:  1
+--------------------------------------
+Host Details for slpapelc.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 192.168.205.139
+ARCHITECTURE: x86_64
+OS:  RHEL Server 7.6
+ENVIRONMENT: Prod
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  0
+--------------------------------------
+Host Details for slpaplcm.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 172.21.9.88
+ARCHITECTURE: x86_64
+OS:  RedHat 6.4
+ENVIRONMENT: Prod
+SEC ERRATA TO APPLY:  325
+BUG ERRATA TO APPLY:  896
+--------------------------------------
+Host Details for slparanc.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 172.21.12.81
+ARCHITECTURE: x86_64
+OS:  RHEL Server 7.6
+ENVIRONMENT: Pilote
+SEC ERRATA TO APPLY:  6
+BUG ERRATA TO APPLY:  12
+--------------------------------------
+Host Details for slparjfa.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 192.168.205.115
+ARCHITECTURE: x86_64
+OS:  RHEL Server 7.6
+ENVIRONMENT: Prod
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  0
+--------------------------------------
+Host Details for slparsat.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 192.168.205.5
+ARCHITECTURE: x86_64
+OS:  RHEL Server 7.6
+Unable to retrieve information please check the Satellite Interface
+--------------------------------------
+Host Details for slpauto1.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 172.21.9.154
+ARCHITECTURE: x86_64
+OS:  RedHat 6.9
+ENVIRONMENT: Prod
+SEC ERRATA TO APPLY:  45
+BUG ERRATA TO APPLY:  68
+--------------------------------------
+Host Details for slpbgn01.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 172.21.9.164
+ARCHITECTURE: x86_64
+OS:  RedHat 7.5
+ENVIRONMENT: Prod
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  0
+--------------------------------------
+Host Details for slpbsjcb.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 192.168.205.149
+ARCHITECTURE: x86_64
+OS:  RHEL Server 7.6
+ENVIRONMENT: Prod
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  0
+--------------------------------------
+Host Details for slpcap
+--------------------------------------
+IP ADDRESS: 172.21.12.77
+ARCHITECTURE: x86_64
+OS:  RedHat 6.5
+Unable to retrieve information please check the Satellite Interface
+--------------------------------------
+Host Details for slpcap.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 172.21.12.77
+ARCHITECTURE: x86_64
+OS:  RedHat 6.5
+ENVIRONMENT: Prod
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  0
+--------------------------------------
+Host Details for slpeadf1.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 172.21.21.209
+ARCHITECTURE: x86_64
+OS:  RedHat 7.5
+ENVIRONMENT: Prod
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  102
+--------------------------------------
+Host Details for slpebip1.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 172.21.21.206
+ARCHITECTURE: x86_64
+OS:  RedHat 7.5
+ENVIRONMENT: Prod
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  101
+--------------------------------------
+Host Details for slpebip2.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 172.21.21.207
+ARCHITECTURE: x86_64
+OS:  RedHat 7.5
+ENVIRONMENT: Prod
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  101
+--------------------------------------
+Host Details for slpebsv1.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 172.21.21.225
+ARCHITECTURE: x86_64
+OS:  RedHat 6.9
+ENVIRONMENT: Prod
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  57
+--------------------------------------
+Host Details for slpeent1.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 172.21.21.201
+ARCHITECTURE: x86_64
+OS:  RedHat 7.5
+ENVIRONMENT: Prod
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  0
+--------------------------------------
+Host Details for slpeent2.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 172.21.21.202
+ARCHITECTURE: x86_64
+OS:  RedHat 7.5
+ENVIRONMENT: Prod
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  0
+--------------------------------------
+Host Details for slpelba1.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 172.21.21.227
+ARCHITECTURE: x86_64
+OS:  RedHat 7.5
+ENVIRONMENT: Prod
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  101
+--------------------------------------
+Host Details for slpeobi1.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 172.21.21.208
+ARCHITECTURE: x86_64
+OS:  RedHat 7.5
+ENVIRONMENT: Prod
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  100
+--------------------------------------
+Host Details for slpeobi2.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 172.21.21.232
+ARCHITECTURE: x86_64
+OS:  RedHat 7.5
+ENVIRONMENT: Prod
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  0
+--------------------------------------
+Host Details for slpeocc1.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 172.21.21.235
+ARCHITECTURE: x86_64
+OS:  RedHat 7.5
+ENVIRONMENT: Prod
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  91
+--------------------------------------
+Host Details for slpeweb1.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 172.21.21.223
+ARCHITECTURE: x86_64
+OS:  RedHat 7.5
+ENVIRONMENT: Prod
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  0
+--------------------------------------
+Host Details for slpeweb2.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 172.21.21.203
+ARCHITECTURE: x86_64
+OS:  RedHat 7.5
+ENVIRONMENT: Prod
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  0
+--------------------------------------
+Host Details for slpeweb3.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 172.21.21.204
+ARCHITECTURE: x86_64
+OS:  RedHat 7.5
+ENVIRONMENT: Prod
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  100
+--------------------------------------
+Host Details for slpeweb4.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 172.21.21.205
+ARCHITECTURE: x86_64
+OS:  RedHat 7.5
+ENVIRONMENT: Prod
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  0
+--------------------------------------
+Host Details for slpeweb5.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 172.21.21.224
+ARCHITECTURE: x86_64
+OS:  RedHat 7.5
+ENVIRONMENT: Prod
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  0
+--------------------------------------
+Host Details for slpexpba.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 172.21.21.228
+ARCHITECTURE: x86_64
+OS:  RedHat 7.5
+ENVIRONMENT: Prod
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  104
+--------------------------------------
+Host Details for slpexpcr.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 172.21.21.229
+ARCHITECTURE: x86_64
+OS:  RedHat 7.5
+ENVIRONMENT: Prod
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  0
+--------------------------------------
+Host Details for slpexpst.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 172.21.21.230
+ARCHITECTURE: x86_64
+OS:  RedHat 7.5
+ENVIRONMENT: Prod
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  0
+--------------------------------------
+Host Details for slpwlt.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 172.21.12.104
+ARCHITECTURE: x86_64
+OS:  RedHat 6.4
+ENVIRONMENT: Prod
+SEC ERRATA TO APPLY:  321
+BUG ERRATA TO APPLY:  870
+--------------------------------------
+Host Details for slracrm1.az.antargaz.fr
+--------------------------------------
+IP ADDRESS: 192.168.199.135
+ARCHITECTURE: x86_64
+OS:  RedHat 6.2
+ENVIRONMENT: Pilote
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  0
+--------------------------------------
+Host Details for slracrmc.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 192.168.199.179
+ARCHITECTURE: x86_64
+OS:  RedHat 7.5
+ENVIRONMENT: Pilote
+SEC ERRATA TO APPLY:  32
+BUG ERRATA TO APPLY:  134
+--------------------------------------
+Host Details for slracsi1.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 192.168.199.165
+ARCHITECTURE: x86_64
+OS:  RedHat 6.4
+ENVIRONMENT: Pilote
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  545
+--------------------------------------
+Host Details for slraec01.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 192.168.199.145
+ARCHITECTURE: x86_64
+OS:  RedHat 6.8
+ENVIRONMENT: Pilote
+SEC ERRATA TO APPLY:  91
+BUG ERRATA TO APPLY:  209
+--------------------------------------
+Host Details for slraetl1.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 192.168.199.144
+ARCHITECTURE: x86_64
+OS:  RedHat 6.9
+ENVIRONMENT: Pilote
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  73
+--------------------------------------
+Host Details for slraglog.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 192.168.199.176
+ARCHITECTURE: x86_64
+OS:  RHEL Server 7.6
+ENVIRONMENT: Pilote
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  29
+--------------------------------------
+Host Details for slragt01.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 192.168.205.75
+ARCHITECTURE: x86_64
+OS:  RedHat 6.10
+ENVIRONMENT: Pilote
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  0
+--------------------------------------
+Host Details for slraisc2.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 192.168.199.43
+ARCHITECTURE: x86_64
+OS:  RedHat 6.4
+ENVIRONMENT: Pilote
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  634
+--------------------------------------
+Host Details for slraisc4.az.antargaz.fr
+--------------------------------------
+IP ADDRESS: 192.168.199.137
+ARCHITECTURE: x86_64
+OS:  RedHat 6.4
+ENVIRONMENT: Library
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  0
+--------------------------------------
+Host Details for slraisc5.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 192.168.199.143
+ARCHITECTURE: x86_64
+OS:  RedHat 6.8
+ENVIRONMENT: Pilote
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  185
+--------------------------------------
+Host Details for slrajbw1.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 192.168.199.164
+ARCHITECTURE: x86_64
+OS:  RedHat 7.5
+ENVIRONMENT: Pilote
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  97
+--------------------------------------
+Host Details for slrapelc.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 192.168.205.133
+ARCHITECTURE: x86_64
+OS:  RHEL Server 7.6
+ENVIRONMENT: Pilote
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  0
+--------------------------------------
+Host Details for slraphoe
+--------------------------------------
+IP ADDRESS: 192.168.199.142
+ARCHITECTURE: x86_64
+OS:  RedHat 6.4
+ENVIRONMENT: Pilote
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  569
+--------------------------------------
+Host Details for slraplc1.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 192.168.199.55
+ARCHITECTURE: x86_64
+OS:  RedHat 6.4
+ENVIRONMENT: Pilote
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  575
+--------------------------------------
+Host Details for slraplcm.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 192.168.199.61
+ARCHITECTURE: x86_64
+OS:  RedHat 6.4
+ENVIRONMENT: Pilote
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  579
+--------------------------------------
+Host Details for slraridm.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 192.168.199.187
+ARCHITECTURE: x86_64
+OS:  RHEL Server 7.6
+ENVIRONMENT: Pilote
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  9
+--------------------------------------
+Host Details for slrasftp.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 192.168.205.131
+ARCHITECTURE: x86_64
+OS:  RedHat 7.5
+ENVIRONMENT: Pilote
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  123
+--------------------------------------
+Host Details for slrawebf.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 192.168.205.43
+ARCHITECTURE: x86_64
+OS:  RHEL Server 7.6
+ENVIRONMENT: Pilote
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  13
+--------------------------------------
+Host Details for slrbbogn.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 192.168.34.13
+ARCHITECTURE: x86_64
+OS:  RedHat 6.8
+ENVIRONMENT: Prod
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  187
+--------------------------------------
+Host Details for slreadf1.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 192.168.22.15
+ARCHITECTURE: x86_64
+OS:  RedHat 7.5
+ENVIRONMENT: Pilote
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  102
+--------------------------------------
+Host Details for slrebip1.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 192.168.22.13
+ARCHITECTURE: x86_64
+OS:  RedHat 7.5
+ENVIRONMENT: Pilote
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  102
+--------------------------------------
+Host Details for slrebsv1.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 192.168.22.16
+ARCHITECTURE: x86_64
+OS:  RedHat 6.9
+ENVIRONMENT: Pilote
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  57
+--------------------------------------
+Host Details for slreent1.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 192.168.22.11
+ARCHITECTURE: x86_64
+OS:  RedHat 7.5
+ENVIRONMENT: Pilote
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  111
+--------------------------------------
+Host Details for slreobi1.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 192.168.22.14
+ARCHITECTURE: x86_64
+OS:  RedHat 7.5
+ENVIRONMENT: Pilote
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  99
+--------------------------------------
+Host Details for slreorc1.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 192.168.22.17
+ARCHITECTURE: x86_64
+OS:  RedHat 7.5
+ENVIRONMENT: Pilote
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  0
+--------------------------------------
+Host Details for slresig1.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 192.168.22.18
+ARCHITECTURE: x86_64
+OS:  RedHat 7.5
+ENVIRONMENT: Pilote
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  0
+--------------------------------------
+Host Details for slreweb1.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 192.168.22.12
+ARCHITECTURE: x86_64
+OS:  RedHat 7.5
+ENVIRONMENT: Pilote
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  100
+--------------------------------------
+Host Details for slreweb2.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 192.168.22.19
+ARCHITECTURE: x86_64
+OS:  RedHat 7.5
+ENVIRONMENT: Pilote
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  99
+--------------------------------------
+Host Details for slrwlt.az.antargaz.fr
+--------------------------------------
+IP ADDRESS: 192.168.199.40
+ARCHITECTURE: x86_64
+OS:  RedHat 6.4
+ENVIRONMENT: Pilote
+SEC ERRATA TO APPLY:  340
+BUG ERRATA TO APPLY:  898
+--------------------------------------
+Host Details for slrwwes1.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 192.168.199.13
+ARCHITECTURE: x86_64
+OS:  RedHat 6.7
+ENVIRONMENT: Pilote
+SEC ERRATA TO APPLY:  180
+BUG ERRATA TO APPLY:  402
+--------------------------------------
+Host Details for slseadf1.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 192.168.22.17
+ARCHITECTURE: x86_64
+OS:  RedHat 7.5
+ENVIRONMENT: Pilote
+SEC ERRATA TO APPLY:  39
+BUG ERRATA TO APPLY:  137
+--------------------------------------
+Host Details for slsebip1.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 192.168.25.17
+ARCHITECTURE: x86_64
+OS:  RedHat 7.5
+ENVIRONMENT: Pilote
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  107
+--------------------------------------
+Host Details for slseent2.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 192.168.25.11
+ARCHITECTURE: x86_64
+OS:  RedHat 7.5
+ENVIRONMENT: Pilote
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  107
+--------------------------------------
+Host Details for slselba1.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 192.168.25.20
+ARCHITECTURE: x86_64
+OS:  RedHat 7.5
+ENVIRONMENT: Pilote
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  106
+--------------------------------------
+Host Details for slseobi1.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 192.168.25.18
+ARCHITECTURE: x86_64
+OS:  RedHat 7.5
+ENVIRONMENT: Pilote
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  103
+--------------------------------------
+Host Details for slseweb1.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 192.168.25.12
+ARCHITECTURE: x86_64
+OS:  RedHat 7.5
+ENVIRONMENT: Pilote
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  103
+--------------------------------------
+Host Details for svl00s.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 172.21.9.41
+ARCHITECTURE: x86_64
+OS:  RedHat 6.3
+ENVIRONMENT: Prod
+SEC ERRATA TO APPLY:  341
+BUG ERRATA TO APPLY:  1
+--------------------------------------
+Host Details for svlaga.az.antargaz.fr
+--------------------------------------
+IP ADDRESS: 172.21.9.42
+ARCHITECTURE: x86_64
+OS:  RedHat 6.3
+ENVIRONMENT: Prod
+SEC ERRATA TO APPLY:  37
+BUG ERRATA TO APPLY:  40
+--------------------------------------
+Host Details for svlbco.az.antargaz.fr
+--------------------------------------
+IP ADDRESS: 172.21.9.46
+ARCHITECTURE: x86_64
+OS:  RedHat 6.4
+ENVIRONMENT: Prod
+SEC ERRATA TO APPLY:  355
+BUG ERRATA TO APPLY:  989
+--------------------------------------
+Host Details for svlman.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 172.21.21.48
+ARCHITECTURE: x86_64
+OS:  RedHat 6.3
+ENVIRONMENT: Prod
+SEC ERRATA TO APPLY:  52
+BUG ERRATA TO APPLY:  45
+--------------------------------------
+Host Details for svlpfr.az.antargaz.fr
+--------------------------------------
+IP ADDRESS: 172.21.22.23
+ARCHITECTURE: x86_64
+OS:  RedHat 6.4
+ENVIRONMENT: Prod
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  657
+--------------------------------------
+Host Details for svlpjc.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 172.21.22.14
+ARCHITECTURE: x86_64
+OS:  RedHat 6.8
+ENVIRONMENT: Prod
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  199
+--------------------------------------
+Host Details for svlpjf.az.antargaz.fr
+--------------------------------------
+IP ADDRESS: 172.21.22.26
+ARCHITECTURE: i386
+OS:  RedHat 6.0
+ENVIRONMENT: Prod
+SEC ERRATA TO APPLY:  201
+BUG ERRATA TO APPLY:  925
+--------------------------------------
+Host Details for svlpjm.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 172.21.21.104
+ARCHITECTURE: x86_64
+OS:  RedHat 6.2
+ENVIRONMENT: Prod
+SEC ERRATA TO APPLY:  503
+BUG ERRATA TO APPLY:  1414
+--------------------------------------
+Host Details for svlpjo.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 172.21.21.106
+ARCHITECTURE: x86_64
+OS:  RedHat 6.2
+ENVIRONMENT: Prod
+SEC ERRATA TO APPLY:  503
+BUG ERRATA TO APPLY:  1412
+--------------------------------------
+Host Details for svlpjp
+--------------------------------------
+IP ADDRESS: 172.21.21.109
+ARCHITECTURE: x86_64
+OS:  RedHat 6.2
+ENVIRONMENT: Prod
+SEC ERRATA TO APPLY:  41
+BUG ERRATA TO APPLY:  55
+--------------------------------------
+Host Details for svlpjq
+--------------------------------------
+IP ADDRESS: 172.21.21.108
+ARCHITECTURE: x86_64
+OS:  RedHat 6.2
+ENVIRONMENT: Prod
+SEC ERRATA TO APPLY:  550
+BUG ERRATA TO APPLY:  1529
+--------------------------------------
+Host Details for svlpjq.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 172.21.21.108
+ARCHITECTURE: x86_64
+OS:  RedHat 6.2
+ENVIRONMENT: Prod
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  0
+--------------------------------------
+Host Details for svlpjr.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 172.21.21.111
+ARCHITECTURE: x86_64
+OS:  RedHat 6.2
+ENVIRONMENT: Prod
+SEC ERRATA TO APPLY:  501
+BUG ERRATA TO APPLY:  1407
+--------------------------------------
+Host Details for svlrco.az.antargaz.fr
+--------------------------------------
+IP ADDRESS: 192.168.34.12
+ARCHITECTURE: i386
+OS:  RedHat 6.9
+ENVIRONMENT: Pilote
+SEC ERRATA TO APPLY:  71
+BUG ERRATA TO APPLY:  106
+--------------------------------------
+Host Details for svlrfr.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 192.168.199.37
+ARCHITECTURE: x86_64
+OS:  RedHat 6.4
+ENVIRONMENT: Pilote
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  614
+--------------------------------------
+Host Details for svlrjl.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 192.168.34.23
+ARCHITECTURE: i386
+OS:  RedHat 6.2
+ENVIRONMENT: Pilote
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  0
+--------------------------------------
+Host Details for svlrjn.az.antargaz.fr
+--------------------------------------
+IP ADDRESS: 192.168.34.25
+ARCHITECTURE: i386
+OS:  RedHat 6.2
+ENVIRONMENT: Pilote
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  635
+--------------------------------------
+Host Details for svlrjp.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 192.168.34.7
+ARCHITECTURE: x86_64
+OS:  RedHat 6.2
+ENVIRONMENT: Pilote
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  0
+--------------------------------------
+Host Details for svlsjl.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 192.168.34.27
+ARCHITECTURE: i386
+OS:  RedHat 6.2
+ENVIRONMENT: Pilote
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  705
+--------------------------------------
+Host Details for svlsjm.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 192.168.34.28
+ARCHITECTURE: i386
+OS:  RedHat 6.2
+ENVIRONMENT: Pilote
+SEC ERRATA TO APPLY:  287
+BUG ERRATA TO APPLY:  892
+--------------------------------------
+Host Details for svlsjp.eu.ugifrance.com
+--------------------------------------
+IP ADDRESS: 192.168.34.11
+ARCHITECTURE: x86_64
+OS:  RedHat 6.2
+ENVIRONMENT: Preprod
+SEC ERRATA TO APPLY:  0
+BUG ERRATA TO APPLY:  0
+--------------------------------------
+Host Details for svraga.az.antargaz.fr
+--------------------------------------
+IP ADDRESS: 192.168.199.36
+ARCHITECTURE: x86_64
+OS:  RedHat 6.4
+ENVIRONMENT: Pilote
+SEC ERRATA TO APPLY:  334
+BUG ERRATA TO APPLY:  956
+--------------------------------------
+Host Details for virt-who-shcl01.eu.ugifrance.com-1
+--------------------------------------
+IP ADDRESS: nil
+ARCHITECTURE: Unknown
+OS:  Unknown
+Unable to retrieve information please check the Satellite Interface
+--------------------------------------
+Host Details for virt-who-shcl03.eu.ugifrance.com-1
+--------------------------------------
+IP ADDRESS: nil
+ARCHITECTURE: Unknown
+OS:  Unknown
+Unable to retrieve information please check the Satellite Interface
+--------------------------------------
+Host Details for virt-who-shsd03.eu.ugifrance.com-1
+--------------------------------------
+IP ADDRESS: nil
+ARCHITECTURE: Unknown
+OS:  Unknown
+Unable to retrieve information please check the Satellite Interface
+--------------------------------------
+Host Details for virt-who-shsd04.eu.ugifrance.com-1
+--------------------------------------
+IP ADDRESS: nil
+ARCHITECTURE: Unknown
+OS:  Unknown
+Unable to retrieve information please check the Satellite Interface
