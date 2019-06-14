@@ -62,38 +62,18 @@ def get_host_report(host_id)
   url= "#{@base_uri}/hosts/#{host_id}"
   result = rest_send(:get, url)
 end 
+def generate_minimal_report()
 
-### main code ###
-@username = 'svc_admin'
-@password = 'redhat'
-@authtoken = @username+":"+@password
-@authtoken = Base64.strict_encode64(@authtoken)
-@base_uri= 'https://slparsat.eu.ugifrance.com/api/v2'
-
-### getting host ids
 url="#{@base_uri}/hosts?per_page=1000"
 host_ids = get_host_ids(url)
 loginfo("Got those IDs: #{host_ids}")
-
 ### getting all hosts reports index
 @full_report = []
 host_ids.each_with_index do |item,index|
 @full_report[index] = get_host_report(item)
 end 
-#puts @full_report
-#puts 'hostname			environment			operating system			ip			katello_present '     
-puts  "hostname     	 		 OS	Arch			Environment	   IP		katello_agent_installed     security_errata  bugfix_errata  "
-
-
-
-
-### Geneating report 
 
 @full_report.each do |item|
-#if item['ip'] != '192.168.205.5'
-#puts  "#{item['facts']['network::fqdn'] || 'Unknown' }   #{item['operatingsystem_name']  || 'Unknown' }	 #{item['architecture_name']  || 'Unknown' }			#{item['environment_name'] || 'nil'}                #{item['ip'] || 'nil' }			#{item['katello_agent_installed'] || 'N/A'}     		#{item['content_facet_attributes']['errata_counts']['security'] || 'nil'}  		#{item['content_facet_attributes']['errata_counts']['bugfix'] || 'nil'}  "
-#{item['operatingsystem_name']  || 'Unknown' }	 #{item['architecture_name']  || 'Unknown' }			#{item['environment_name'] || 'nil'}                #{item['ip'] || 'nil' }			#{item['katello_agent_installed'] || 'N/A'}     		#{item['content_facet_attributes']['errata_counts']['security'] || 'nil'}  		#{item['content_facet_attributes']['errata_counts']['bugfix'] || 'nil'}  "
-#puts "#{item}"
 puts '--------------------------------------'
 puts "Host Details for #{item['name'] || 'Unknown'}" 
 puts '--------------------------------------'
@@ -107,6 +87,17 @@ puts '--------------------------------------'
   rescue
    puts "Unable to retrieve information please check the Satellite Interface"
   end 
-   
 end 
+end 
+### main code ###
+@username = 'svc_admin'
+@password = 'redhat'
+@authtoken = @username+":"+@password
+@authtoken = Base64.strict_encode64(@authtoken)
+@base_uri= 'https://slparsat.eu.ugifrance.com/api/v2'
+
+### getting host ids
+
+   
+generate_minimal_report() 
 
