@@ -4,6 +4,20 @@ require 'base64'
 require 'json'
 require 'uri'
 
+
+#####################################################
+##   Connection  Parameters 
+####################################################
+#
+@username = 'svc_admin'
+@password = 'redhat'
+@satellite_hostname = 'slparsat.eu.ugifrance.com'
+
+
+
+
+
+
 @debug = false 
 def loginfo(message)
 
@@ -62,6 +76,16 @@ def get_host_report(host_id)
   url= "#{@base_uri}/hosts/#{host_id}"
   result = rest_send(:get, url)
 end 
+
+
+
+
+
+
+
+#########################################
+##   Minimal report 
+#########################################
 def generate_minimal_report()
 
 url="#{@base_uri}/hosts?per_page=1000"
@@ -84,7 +108,7 @@ puts '--------------------------------------'
    puts "ENVIRONMENT: #{item['content_facet_attributes']['lifecycle_environment_name'] || 'Unkown'}"
    puts "KATELLO_INSTALLED: #{item['content_facet_attributes']['katello_agent_installed'] || 'false'}"
    puts "SEC ERRATA TO APPLY:  #{item['content_facet_attributes']['errata_counts']['security'] || 'nil'}"
-   puts "BUG ERRATA TO APPLY:  #{item['content_facet_attributes']['errata_counts']['bugfix'] || 'nil'}"
+ # puts "BUG ERRATA TO APPLY:  #{item['content_facet_attributes']['errata_counts']['bugfix'] || 'nil'}"
 
   rescue
    puts "Unable to retrieve information please check the Satellite Interface"
@@ -92,11 +116,9 @@ puts '--------------------------------------'
 end 
 end 
 ### main code ###
-@username = 'svc_admin'
-@password = 'redhat'
 @authtoken = @username+":"+@password
 @authtoken = Base64.strict_encode64(@authtoken)
-@base_uri= 'https://slparsat.eu.ugifrance.com/api/v2'
+@base_uri= "https://#{@satellite_hostname}/api/v2"
 
 ### getting host ids
 
