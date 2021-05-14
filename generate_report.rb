@@ -9,9 +9,9 @@ require 'uri'
 ##   Connection  Parameters 
 ####################################################
 #
-@username = 'svc_admin'
-@password = 'redhat'
-@satellite_hostname = 'slparsat.eu.ugifrance.com'
+@username = 'xxxxxxx'
+@password = 'xxxxxx'
+@satellite_hostname = 'xxxxxx'
 
 
 
