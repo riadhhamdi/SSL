@@ -98,7 +98,7 @@ echo
 read CSRPATH
 echo 
 echo Signing CSR
-openssl x509 -req -days 360 -in $CSRPATH -CA $CAPATH -CAkey $CAKEYPATH -CAcreateserial -out /tmp/generated.crt -sha256
+openssl x509 -req -days 360 -in $CSRPATH -CA $CAPATH -CAkey $CAKEYPATH -CAcreateserial -out /tmp/generated.crt -sha256 -extfile answers.txt -extensions v3_req
 printf "${GR} your signed certificate is stored in /tmp/generated.crt ${NC}"
 echo 
 exit 0
